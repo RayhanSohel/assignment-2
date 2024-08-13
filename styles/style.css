@@ -230,9 +230,9 @@ a{
   line-height: 3rem;
 }
 
+
 /* -------MAIN BODY STYLE--------*/
 /* ---SECTION ONE (CHANGE YOUR HABIT) STYLE--- */
-
 .sec-one{
   flex-direction: column;
   align-items: center;
@@ -267,12 +267,9 @@ a{
 
 .sec-one-cart-title{
   font-size: 1.125rem;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
-
-
-
 
 
 
@@ -287,7 +284,11 @@ a{
   padding: 0px 5%;
 }
 
-/* ---NAVBAR RESPONSIVE--- */
+.sec-title{
+  font-size: 2rem;
+}
+
+/* ---NAVBAR MOBILE RESPONSIVE--- */
 .nav-items{
   display: none;
 }
@@ -296,7 +297,7 @@ a{
   display: block;
 }
 
-/* ---BANNER RESPONSIVE--- */
+/* ---BANNER MOBILE RESPONSIVE--- */
 .banner{
   flex-direction: column;
 }
@@ -329,5 +330,20 @@ a{
   top: -30px;
   right: 10px;
 }
+
+/* ---SECTION ONE (CHANGE YOUR HABIT) MOBILE RESPONSIVE--- */
+.sec-one-cart-box{
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+.sec-one-content{
+  margin-top: 30px;
+}
+
+.sec-one-cart{
+  max-width: 300px;
+}
+
 
 }
