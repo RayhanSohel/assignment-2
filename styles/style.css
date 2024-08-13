@@ -125,7 +125,13 @@ a{
   text-decoration: none;
   font-weight: 500;
 }
+.menu-btn{
+  display: none;
+}
 
+.menu-icon{
+  width: 30px;
+}
 
 /* ---BANNER STYLES--- */
 .banner{
@@ -151,6 +157,9 @@ a{
 .banner-btn{
   gap: 15px;
   margin-bottom: 30px;
+}
+.mobile-btn{
+  display: none;
 }
 
 .banner-right-section{
@@ -213,4 +222,58 @@ a{
 .banner-free-video h3{
   font-size: 2.5rem;
   line-height: 3rem;
+}
+
+
+/* ------------RESPONSIVE STYLES------------ */
+/* ---MOBILE FRIENDLY--- */
+@media screen and (max-width: 576px){
+
+.section-padding {
+  padding: 0px 5%;
+}
+
+/* ---NAVBAR RESPONSIVE--- */
+.nav-items{
+  display: none;
+}
+
+.menu-btn{
+  display: block;
+}
+
+/* ---BANNER RESPONSIVE--- */
+.banner{
+  flex-direction: column;
+}
+
+.banner-title{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+}
+
+.mobile-btn{
+  display: block;
+}
+
+.desktop-btn{
+  display: none;
+}
+
+.btn-primary, .btn-secondary{
+  padding: 12px 30px;
+  font-size: 1rem;
+}
+
+.banner-tutorial-video{
+  bottom: 150px;
+  left: 10px;
+}
+
+.banner-free-video{
+  top: -30px;
+  right: 10px;
+}
+
 }
