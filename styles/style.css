@@ -36,7 +36,7 @@ a{
   display: flex;
 }
 
-.navbar, .banner {
+.navbar, .banner, .sec-one{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -63,6 +63,12 @@ a{
 
 .section-padding{
   padding: 0 13%;
+}
+
+.sec-title{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .btn-primary{
@@ -223,6 +229,54 @@ a{
   font-size: 2.5rem;
   line-height: 3rem;
 }
+
+/* -------MAIN BODY STYLE--------*/
+/* ---SECTION ONE (CHANGE YOUR HABIT) STYLE--- */
+
+.sec-one{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-one-content{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  max-width: 660px;
+  text-align: center;
+}
+
+.sec-one-cart-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.sec-one-cart{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.sec-one-img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #a1a1a1;
+}
+
+.sec-one-cart-title{
+  font-size: 1.125rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 
 
 /* ------------RESPONSIVE STYLES------------ */
