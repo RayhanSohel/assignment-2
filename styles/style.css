@@ -7,16 +7,209 @@
     scroll-behavior: smooth;
 }
 
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 /* ----SHARED STYLE---- */
 .style-font {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .primary-font {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.primary-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.navbar, .banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.primary-color {
+  color: #DE3D24;
+}
+
+.text-color {
+  color: #FFFFFF;
+}
+
+.para-text-color {
+  color: #696969;
+}
+
+.dark-bg-color{
+  background-color: #000000;
+}
+
+.liner-bg-color{
+  background-image: linear-gradient(to bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #1f1f1f, #1f1f1f, #1f1f1f, #191919, #131313, #0b0b0b, #000000);
+}
+
+.section-padding{
+  padding: 0 13%;
+}
+
+.btn-primary{
+  background-color: #DE3D24;
+  color: #ffffff;
+  padding: 15px 50px;
+  font-size: 1.125rem;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn-secondary{
+  background-color: transparent;
+  color: #ffffff;
+  padding: 15px 50px;
+  font-size: 1.125rem;
+  border-radius: 50px;
+  border: 3px solid #a1a1a1;
+}
+
+
+/* ----------HEADER STYLES----------- */
+/* ---NAVBAR STYLES--- */
+.navbar {
+  padding: 60px 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.brand-name {
+  margin-bottom: -10px;
+}
+
+.brand-logo {
+  width: 180px;
+}
+
+.nav-items{
+  border: 1px solid #ffffff1a;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.nav-links{
+  gap: 20PX;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 7px 20px;
+}
+
+#active-item{
+  background-color: #DE3D24;
+  border-radius: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+/* ---BANNER STYLES--- */
+.banner{
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-left-section{
+  max-width: 550px;
+}
+
+.banner-title{
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+}
+
+.banner-description{
+  margin: 30px 0;
+}
+
+.banner-btn{
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.banner-right-section{
+  position: relative;
+}
+
+.banner-img{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.banner-tutorial-video{
+  position: absolute;
+  bottom: 50px;
+  left: -80px;
+  width: 210px;
+  height: 100px;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #3030308a;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-btn{
+ width: 40px;
+ height: 40px;
+ background-color: #DE3D24;
+ border-radius: 50%;
+ padding: 10px;
+ align-items: center;
+ justify-content: center;
+}
+
+.play-icon{
+  width: 15px;
+}
+
+.banner-tutorial-video h3{
+  font-size: 1.5rem;
+}
+
+.banner-free-video{
+  position: absolute;
+  top: 150px;
+  right: -80px;
+  width: 210px;
+  height: 100px;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #3030308a;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-free-video h3{
+  font-size: 2.5rem;
+}
