@@ -36,7 +36,7 @@ a{
   display: flex;
 }
 
-.navbar, .banner, .sec-one, .sec-two{
+.navbar, .banner, .sec-one, .sec-two, .sec-three, .sec-four, .sec-five{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -253,7 +253,7 @@ a{
 
 .sec-one-cart-box{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
@@ -278,9 +278,6 @@ a{
 
 
 /*---SECTION TWO (RUN MORE) STYLE--- */
-.sec-two{
-  margin-bottom: 80px;
-}
 .sec-two-content{
   padding: 30px;
   justify-content: space-between;
@@ -313,6 +310,55 @@ a{
   background-size: cover;
 }
 
+
+/*---SECTION FIVE (TEAM) STYLE--- */
+.sec-five{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.sec-five-content{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  max-width: 660px;
+  text-align: center;
+}
+
+.sec-five-content > .sec-title{
+  margin-bottom: 20px;
+}
+
+.sec-five-cart-box{
+  padding: 20px;
+  background-color: #222222;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.sec-five-img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.sec-five-cart {
+  position: relative;
+}
+
+.sec-five-img-content{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.sec-five-img-content > p{
+  color: #818181;
+}
 
 
 /* ------------RESPONSIVE STYLES------------ */
