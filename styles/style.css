@@ -325,6 +325,7 @@ a{
 
 .sec-title{
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 /* ---NAVBAR MOBILE RESPONSIVE--- */
@@ -371,6 +372,10 @@ a{
 }
 
 /* ---SECTION ONE (CHANGE YOUR HABIT) MOBILE RESPONSIVE--- */
+.sec-one{
+  margin-bottom: 60px;
+}
+
 .sec-one-cart-box{
   grid-template-columns: auto;
   gap: 20px;
@@ -382,6 +387,22 @@ a{
 
 .sec-one-cart{
   max-width: 300px;
+}
+
+/*---SECTION TWO (RUN MORE) MOBILE RESPONSIVE---- */
+.sec-two-content{
+  flex-direction: column;
+}
+
+.sec-two-left-section{
+  padding-left: 0px;
+}
+.sec-two-left-section > .banner-btn > .btn-primary{
+  width: 100%;
+}
+.sec-two-bg-img{
+  margin-top: 20px;
+  width: 100%;
 }
 
 
