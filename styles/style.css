@@ -89,7 +89,6 @@ a{
   border: 3px solid #a1a1a1;
 }
 
-
 /* ----------HEADER STYLES----------- */
 /* ---NAVBAR STYLES--- */
 .navbar {
@@ -230,7 +229,6 @@ a{
   line-height: 3rem;
 }
 
-
 /* -------MAIN BODY STYLE--------*/
 /* ---SECTION ONE (CHANGE YOUR HABIT) STYLE--- */
 .sec-one{
@@ -275,7 +273,6 @@ a{
   margin-top: 20px;
   margin-bottom: 10px;
 }
-
 
 /*---SECTION TWO (RUN MORE) STYLE--- */
 .sec-two-content{
@@ -364,7 +361,6 @@ a{
   transform: scale(1.1);
 }
 
-
 /* ---SECTION FOUR (BMI CALCULATOR) STYLE--- */
 .sec-four{
   flex-direction: column;
@@ -383,21 +379,18 @@ a{
   width: 100%;
   background-color: #ffffff1a;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .bmi-sec{
   gap: 40px;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .bmi-chart, .bmi-calculator {
-  flex-basis: 49%;
-  width: 300px;
-  height: 300px;
+  flex-basis: 50%;
 }
-
 
 .bmi-chart-title{
   margin-bottom: 30px;
@@ -443,15 +436,12 @@ td{
   color: #696969;
   margin-top: 14px;
   margin-bottom: 20px;
-  width: 99%;
+  width: 100%;
   padding: 14px 20px;
   border: none;
   border-radius: 8px;
   background-color: #353535;
 }
-
-
-
 
 /*---SECTION FIVE (TEAM) STYLE--- */
 .sec-five{
@@ -502,7 +492,6 @@ td{
   color: #818181;
 }
 
-
 /*---FOOTER STYLE---*/
 .sec-footer{
   background-color: #ffffff1a;
@@ -533,7 +522,6 @@ td{
   list-style: none;
   padding: 7px 0px;
 }
-
 
 
 /* ------------RESPONSIVE STYLES------------ */
@@ -644,6 +632,22 @@ td{
   transform: scale(1);
 }
 
+/* ---SECTION FOUR (BMI CALCULATOR) MOBILE RESPONSIVE--- */
+.bmi-sec{
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: flex-start;
+}
+
+.bmi-form-input, .sex-select{
+  width: 48%;
+}
+
+.margin-left{
+  margin-left: 10px;
+}
+
 /*---SECTION FIVE (TEAM) MOBILE RESPONSIVE--- */
 .sec-five-content{
   margin-top: 60px;
@@ -668,6 +672,4 @@ td{
 .footer-bottom-container{
   text-align: left;
 }
-
-
 }
