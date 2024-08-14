@@ -233,14 +233,14 @@ a{
 
 /* -------MAIN BODY STYLE--------*/
 /* ---SECTION ONE (CHANGE YOUR HABIT) STYLE--- */
-.sec-one, .sec-three{
+.sec-one{
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
 }
 
-.sec-one-content, .sec-three-content{
+.sec-one-content{
   margin-top: 100px;
   margin-bottom: 60px;
   max-width: 660px;
@@ -312,7 +312,13 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+}
+
+.sec-three-content{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  max-width: 660px;
+  text-align: center;
 }
 
 .sec-three-cart-box{
