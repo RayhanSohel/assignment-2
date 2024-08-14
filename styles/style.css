@@ -240,7 +240,7 @@ a{
   margin-bottom: 100px;
 }
 
-.sec-one-content{
+.sec-one-content, .sec-three-content{
   margin-top: 100px;
   margin-bottom: 60px;
   max-width: 660px;
@@ -518,7 +518,7 @@ a{
   max-width: 300px;
 }
 
-/*---SECTION TWO (RUN MORE) MOBILE RESPONSIVE---- */
+/*---SECTION TWO (RUN MORE) MOBILE RESPONSIVE--- */
 .sec-two-content{
   flex-direction: column;
 }
@@ -534,7 +534,25 @@ a{
   width: 100%;
 }
 
-/*---SECTION FIVE (TEAM) MOBILE RESPONSIVE---- */
+/* ---SECTION THREE (PRICING) MOBILE RESPONSIVE--- */
+.sec-three-cart-box{
+  grid-template-columns: auto;
+  gap: 20px;
+}
+.sec-three{
+  margin-bottom: 0px;
+}
+
+.sec-three-content{
+  margin-top: 60px;
+}
+
+#best-Plan{
+  background-color: #222222;
+  transform: scale(1);
+}
+
+/*---SECTION FIVE (TEAM) MOBILE RESPONSIVE--- */
 .sec-five-content{
   margin-top: 60px;
 }
