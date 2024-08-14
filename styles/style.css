@@ -156,7 +156,7 @@ a{
 }
 
 .banner-description{
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .banner-btn{
@@ -633,6 +633,10 @@ td{
 }
 
 /* ---SECTION FOUR (BMI CALCULATOR) MOBILE RESPONSIVE--- */
+.sec-four-title{
+  margin-top: 60px;
+}
+
 .bmi-sec{
   flex-direction: column;
   padding-top: 40px;
