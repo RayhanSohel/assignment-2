@@ -233,7 +233,7 @@ a{
 
 /* -------MAIN BODY STYLE--------*/
 /* ---SECTION ONE (CHANGE YOUR HABIT) STYLE--- */
-.sec-one{
+.sec-one, .sec-three{
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -306,6 +306,59 @@ a{
   object-fit: cover;
   border-radius: 18px;
 }
+
+/* ---SECTION THREE (PRICING) STYLE--- */
+.sec-three{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.sec-three-cart-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.sec-three-cart{
+  padding: 50px;
+  border: 2px solid #ffffff1a;
+  border-radius: 20px;
+}
+
+.sec-three-cart-title{
+  font-size: 2rem;
+  margin-left: -20px;
+}
+
+.package-pricing{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #DE3D24;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  margin-left: -20px;
+}
+
+.price-list-item{
+  margin-bottom: 10px;
+}
+
+.pricing-btn{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+#best-Plan{
+  background-color: #222222;
+  transform: scale(1.1);
+}
+
+
 
 
 /*---SECTION FIVE (TEAM) STYLE--- */
