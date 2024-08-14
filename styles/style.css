@@ -329,7 +329,7 @@ a{
 
 .sec-five-cart-box{
   padding: 20px;
-  background-color: #222222;
+  background-color: #ffffff1a;
   border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -357,10 +357,10 @@ a{
   color: #818181;
 }
 
-/*---FOOTER START---*/
 
+/*---FOOTER STYLE---*/
 .sec-footer{
-  background-color: #222222;
+  background-color: #ffffff1a
 }
 .footer-top-container{
   padding: 60px 0 30px 0;
@@ -384,9 +384,12 @@ a{
   text-align: center;
 }
 
-.footer-menu-title{
-  padding-left: 20px;
+.footer-item{
+  list-style: none;
+  padding: 7px 0px;
 }
+
+
 
 /* ------------RESPONSIVE STYLES------------ */
 /* ---MOBILE FRIENDLY--- */
@@ -490,6 +493,17 @@ a{
 
 .mobile-view{
   display: none;
+}
+
+/*---FOOTER MOBILE RESPONSIVE---- */
+.footer-top-container{
+  grid-template-columns: auto;
+  gap: 20px;
+  justify-items: start;
+}
+
+.footer-bottom-container{
+  text-align: left;
 }
 
 
