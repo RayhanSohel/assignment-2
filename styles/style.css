@@ -36,7 +36,7 @@ a{
   display: flex;
 }
 
-.navbar, .banner, .sec-one, .sec-two, .sec-three, .sec-four, .sec-five{
+.navbar, .banner, .sec-one, .sec-two, .sec-three, .sec-four, .sec-five, .footer-container{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -357,8 +357,36 @@ a{
   color: #818181;
 }
 
+/*---FOOTER START---*/
 
+.sec-footer{
+  background-color: #222222;
+}
+.footer-top-container{
+  padding: 60px 0 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: end;
+}
 
+.footer-brand-logo{
+  width: 300px;
+}
+
+.footer-description{
+  margin: 30px 0;
+}
+
+.footer-bottom-container{
+  padding: 30px 0;
+  border-top: 2px solid #9999991a;
+  text-align: center;
+}
+
+.footer-menu-title{
+  padding-left: 20px;
+}
 
 /* ------------RESPONSIVE STYLES------------ */
 /* ---MOBILE FRIENDLY--- */
