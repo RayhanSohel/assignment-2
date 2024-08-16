@@ -298,10 +298,11 @@ a{
 }
 
 .sec-two-img{
-  width: 100%;
-  height: 315px;
-  object-fit: cover;
+  width: 380px;
+  height: 300px;
   border-radius: 18px;
+  object-fit: none;
+  object-position: 67% 31%;
 }
 
 /* ---SECTION THREE (PRICING) STYLE--- */
@@ -609,6 +610,13 @@ td{
 .sec-two-left-section > .banner-btn > .btn-primary{
   width: 100%;
 }
+
+.sec-two-img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
 .sec-two-bg-img{
   margin-top: 20px;
   width: 100%;
